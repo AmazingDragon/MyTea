@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
                     bundle.putString("url",content+page[i-1]);
                 }
                 fragments[i].setArguments(bundle);
+                //测试
         }
     }
 
